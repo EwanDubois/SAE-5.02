@@ -1,0 +1,17 @@
+---
+- name: Déploiement de l'application PMZ
+  hosts: app
+  become: true
+  roles:
+    - common
+    - docker
+    - app
+    - seed
+    - reverse_proxy
+
+- name: Configuration de la cible de sauvegarde
+  hosts: backup
+  become: true
+  roles:
+    - common
+    - backup

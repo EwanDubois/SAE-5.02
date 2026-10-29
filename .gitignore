@@ -1,0 +1,6 @@
+*.retry
+.vault_pass
+.env
+*.local
+app/__pycache__/
+roles/*/tests/

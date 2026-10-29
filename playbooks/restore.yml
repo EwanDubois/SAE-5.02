@@ -1,0 +1,9 @@
+---
+- name: Restauration d'une archive
+  hosts: app
+  become: true
+  vars:
+    archive: ""
+  roles:
+    - role: backup
+      tags: [restore]

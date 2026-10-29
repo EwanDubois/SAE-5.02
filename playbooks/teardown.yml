@@ -1,0 +1,9 @@
+---
+- name: Suppression des conteneurs
+  hosts: app
+  become: true
+  vars:
+    supprimer_volumes: false
+  roles:
+    - role: app
+      tags: [teardown]

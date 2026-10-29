@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  author: Ewan
+  description: Rôle common — SAÉ 5.02
+  license: MIT
+  min_ansible_version: "2.14"
+  galaxy_tags: []
+
+dependencies: []

@@ -1,0 +1,7 @@
+---
+- name: Sauvegarde de la base vers VM-backup
+  hosts: app
+  become: true
+  roles:
+    - role: backup
+      tags: [backup]

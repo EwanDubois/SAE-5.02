@@ -1,0 +1,50 @@
+---
+# Référentiel fictif. Aucune donnée réelle d'Orange.
+# C'est ce fichier que l'on modifie pour ajouter une zone en démonstration.
+
+zones:
+  - code: ZA
+    libelle: Zone Nord
+    commune: Villeneuve-sur-Doux
+    equipe:
+      nom: Équipe dépannage Nord
+      contact: zone-a-depannage@example.com
+    pmz:
+      - identifiant: PMZ-A-001
+        libelle: PMZ Mairie
+        latitude: 45.812
+        longitude: 3.104
+        capacite: 288
+        locaux: 240
+      - identifiant: PMZ-A-002
+        libelle: PMZ Gare
+        latitude: 45.818
+        longitude: 3.111
+        capacite: 288
+        locaux: 196
+      - identifiant: PMZ-A-003
+        libelle: PMZ Les Peupliers
+        latitude: 45.806
+        longitude: 3.098
+        capacite: 144
+        locaux: 118
+
+  - code: ZB
+    libelle: Zone Sud
+    commune: Saint-Clair-le-Bas
+    equipe:
+      nom: Équipe dépannage Sud
+      contact: zone-b-depannage@example.com
+    pmz:
+      - identifiant: PMZ-B-001
+        libelle: PMZ Centre
+        latitude: 45.762
+        longitude: 3.142
+        capacite: 288
+        locaux: 254
+      - identifiant: PMZ-B-002
+        libelle: PMZ Zone artisanale
+        latitude: 45.755
+        longitude: 3.158
+        capacite: 144
+        locaux: 87
